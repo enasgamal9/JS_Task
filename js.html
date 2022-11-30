@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="js.css">
+        <title>JS Project</title>
+    </head>
+    <body>
+        <main>
+            <!--Navbar-->
+            <nav> 
+                <h3 id="logo">JS</h3>
+                <a href="#" id="opened">To Do List</a>
+                <a href="mailto:someone@example.com" id="contact_us">Contact us</a>
+            </nav>
+            
+            <!--To Do List-->
+            <div id="todoContainer">
+                <div id="todoInput">
+                    <h3>To Do List</h3>
+                    <input type="text" id="myInput" placeholder="What should I do today?">
+                    <span onclick="newElement()" class="addBtn">Add To List</span>
+                </div>
+                
+                <ul id="todoItems">
+                    <li class="item">Work Out</li>
+                    <li class="item">Study</li>
+                    <li class="item checked">Meet My Friends</li>
+                    <li class="item">Buy Noodles</li>
+                    <li class="item">Read a book</li>
+                </ul>
+            </div>
+
+            <!--Footer-->
+            <footer>
+                <div id="f_logo">
+                  <ul>
+                      <li class="f_title">JS</li>
+                      <li class="f_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li><br/>
+                      <li>@JS</li>
+                  </ul>
+                </div>
+          
+                <div id="f_about">
+                  <ul>
+                      <li class="f_title">About us</li>
+                      <li><a href="#">Zeux</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li><a href="#">Careers</a></li>
+                      <li><a href="#">Contact us</a></li><br/>
+                  </ul>
+                </div>
+          
+          
+                <div id="f_contact">
+                  <ul>
+                    <li class="f_title">Contact us</li>
+                    <li class="f_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </li><br/>
+                    <li>+908 89097 890</li>
+                  </ul>
+                </div>
+          
+                <div id="social">
+                  <a href="https://www.facebook.com/"><img src="https://i.postimg.cc/g038trJZ/fb.png"/></a>
+                  <a href="https://www.instagram.com/"><img src="https://i.postimg.cc/G2rYWr8S/instagram.png"/></a>
+                  <a href="https://www.twitter.com/"><img src="https://i.postimg.cc/W3nrjK0p/linkedin.png"/></a>
+                  <a href="https://www.linkedin.com/"><img src="https://i.postimg.cc/1X3FzHKG/twitter.png"/></a>
+                </div>
+          
+                <hr id="f_hr"/>
+          
+                <p id="f_copy">Copyright &#174; 2022 prodesigner All rights Rcerved</p>
+            </footer>
+        </main>
+
+
+        <script src="js.js"></script>
+    </body>
+</html>

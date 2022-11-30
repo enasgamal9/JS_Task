@@ -1,0 +1,142 @@
+/*Body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d2c3d5;
+    font-family:sans-serif;
+}
+
+/*Navbar*/
+nav{
+    height: 80px;
+    padding-top: 20px;   
+    background-color: #84709b;
+}
+
+#logo{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 760px;
+    font-size: 30px;
+    color: #eee4e0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #eee4e0;
+    margin-left: 80px;
+}
+
+#todoInput>h3{
+    color: #84709b;
+}
+
+#contact_us{
+    border-radius: 5px;
+    background-color: #e1e4ea;
+    color: #84709b;
+    padding: 10px 30px;    
+}
+
+#opened{
+    border-bottom-style: solid;
+    border-bottom-color: #e1e4ea;
+    border-bottom-width: 4px;
+}
+
+/*To Do List*/
+#todoContainer{
+    background-image: url("todo_bg.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    text-align: center;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+#myInput{
+    padding: 12px 8px 12px 40px;
+    width: 585px;
+    opacity: 90%;
+    margin-left: 35px;
+}
+.addBtn{
+    background-color: #84709b;
+    padding: 10px;
+    opacity: 90%;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #eee4e0;
+}
+.item{
+    list-style: none;
+    text-align: left;
+    background-color: rgba(238, 238, 238, 0.7);
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+}
+.item:hover {
+    background: rgba(221, 221, 221, 0.9);
+  }
+.checked {
+    background: rgba(136, 136, 136, 0.9);
+    color: #fff;
+    text-decoration: line-through;
+  }
+.close {
+    padding: 10px;
+    margin-top: -12px;
+    float: right;
+    font-size: 18px;
+  }
+.close:hover {
+    background-color: #84709b;
+    color: white;
+  }
+  
+/*Footer*/
+footer{
+    background-color: #84709b;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 0;
+    color: #eee4e0;
+}
+
+footer div ul li{
+    list-style: none;
+}
+
+#f_logo, #f_contact, #f_about, #social{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.f_title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#f_about a{
+    text-decoration: none;
+    color: #eee4e0;
+}
+
+.f_text{
+    width: 290px;
+}
+
+#f_hr{
+    border-top: 1px solid white;
+    border-bottom: none;
+}
+
+#f_copy{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
